@@ -9,13 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        HStack {
-            Text("First of all")
-                .padding()
-            Image(systemName: "person")
-                .foregroundColor(.green)
-          
-        }
+            HStack {
+                Text("First of all")
+                    .padding()
+                Image(systemName: "person")
+                    .foregroundColor(.green)
+              
+            }
+            Text("second of all")
+        
+      
+
     }
     
 }
